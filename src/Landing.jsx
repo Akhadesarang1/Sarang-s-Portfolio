@@ -1,4 +1,3 @@
-
 import {
   AnimatePresence,
   motion,
@@ -151,7 +150,7 @@ const projectsData = [
 
 const experienceData = [
   {
-    role: "Software Intern",
+    role: "Software Developer Intern",
     company: "Prism Technologies",
     duration: "Jan 2026 – Present",
     details: [
@@ -240,28 +239,27 @@ const educationData = [
   {
     degree: "Master of Computer Applications (MCA)",
     institution: "JSPM's Jayawant Institute of Management Studies, Pune",
-    duration: "Sept 2023 – May 2025 ",
+    duration: "Sept 2023 – Sept 2025 ",
     cgpa: "CGPA: 7.38 ",
     icon: (
       <FaGraduationCap className="w-8 h-8 text-secondary mr-4 flex-shrink-0" />
     ),
   },
   {
-    degree: "Bachelor of Science in Computer Science (B.Sc. CS)",
+    degree: "Bachelor of Science in Computer Science  (B.Sc. CS)",
     institution: "Dr. D. Y. Patil Arts, Commerce & Science College, Pune",
     duration: "Oct 2020 – June 2023",
     cgpa: "CGPA: 8.34",
     icon: (
       <FaGraduationCap className="w-8 h-8 text-secondary mr-4 flex-shrink-0" />
     ),
-  },
+  }
 ];
-
 const contactInfo = {
-  email: "sarangakhade1@gmail.com",
+  email: "akhadesarang1036@gmail.com",
   phone: "+91 82087 96008",
   location: "Pune, Maharashtra, India",
-  portfolioUrl: "sarangakhade.netlify.app",
+  portfolioUrl: "https://sarangs-portfolio.onrender.com/",
   githubUrl: "https://github.com/Akhadesarang1",
   linkedinUrl: "https://www.linkedin.com/in/sarang-akhade-72a846272/",
 };
@@ -577,7 +575,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             data-magnetic
           >
-            Sarang Akhade
+            Sarang Rayaji Akhade
           </motion.a>
 
           <div>
